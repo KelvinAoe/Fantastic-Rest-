@@ -26,13 +26,7 @@ class ReminderController: UIViewController, UNUserNotificationCenterDelegate {
     
     
     
-    
-    
     override func viewDidLoad() {
-        
-        switchOne.isOn = false
-        switchTwo.isOn = false
-        switchThree.isOn = false
         
         
         UNUserNotificationCenter.current().delegate = self
@@ -54,23 +48,41 @@ class ReminderController: UIViewController, UNUserNotificationCenterDelegate {
         switchOne.isOn = UserDefaults.standard.bool(forKey: "switch1IsOn")
         switchTwo.isOn = UserDefaults.standard.bool(forKey: "switch2IsOn")
         switchThree.isOn = UserDefaults.standard.bool(forKey: "switch3IsOn")
+        
+        
+        
+        if switchOne.isOn == true{
+            switchTwo.isEnabled = false
+            switchThree.isEnabled = false
+        }else if switchTwo.isOn == true {
+            switchOne.isEnabled = false
+            switchThree.isEnabled = false
+        }else if switchThree.isOn == true {
+            switchOne.isEnabled = false
+            switchTwo.isEnabled = false
+        }else {
+            switchOne.isEnabled = true
+            switchTwo.isEnabled = true
+            switchThree.isEnabled = true
+        }
+       
 //
 //        }
     }
     
     
-    
-    
     @IBAction func switch1Toggled(_ sender: UISwitch) {
         if switchOne.isOn == true{
-            switchThree.isEnabled = false
-                      switchTwo.isEnabled = false
+            
             switch1State = true
+            switchThree.isEnabled = false
+            switchTwo.isEnabled = false
+            
+            
                    
                    let content = UNMutableNotificationContent()
                           content.title = "Hey you!"
                            content.sound = .default
-                          content.body = "List it down here and start to be productive!"
                           content.body = "You have worked hard today! Take a rest with us, won't you? It will be fun!"
                           
                           //step3  create the notifications trigger
@@ -85,10 +97,6 @@ class ReminderController: UIViewController, UNUserNotificationCenterDelegate {
                                   print("Something went wrong")
                               }
                           })
-            
-            
-            
-            return
         }else{
             UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["timer1"])
             switchThree.isEnabled = true
@@ -102,14 +110,13 @@ class ReminderController: UIViewController, UNUserNotificationCenterDelegate {
     
     @IBAction func switch2Toogled(_ sender: UISwitch) {
         if switchTwo.isOn == true{
-            switchThree.isEnabled = false
-                                 switchOne.isEnabled = false
             switch2State = true
+            switchThree.isEnabled = false
+            switchOne.isEnabled = false
             
                 let content = UNMutableNotificationContent()
                        content.title = "Hey you!"
                         content.sound = .default
-                       content.body = "List it down here and start to be productive!"
                        content.body = "You have worked hard today! Take a rest with us, won't you? It will be fun!"
                        
                        //step3  create the notifications trigger
@@ -137,14 +144,13 @@ class ReminderController: UIViewController, UNUserNotificationCenterDelegate {
     
     @IBAction func switch3Toogled(_ sender: UISwitch) {
         if switchThree.isOn == true{
+             switch3State = true
             switchOne.isEnabled = false
             switchTwo.isEnabled = false
-            switch3State = true
             
             let content = UNMutableNotificationContent()
                                   content.title = "Hey you!"
                                    content.sound = .default
-                                  content.body = "List it down here and start to be productive!"
                                   content.body = "You have worked hard today! Take a rest with us, won't you? It will be fun!"
                                   
                                   //step3  create the notifications trigger
