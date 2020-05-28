@@ -48,7 +48,7 @@ var session:ARSession! //AR
             }
             
             @objc func runTimer() {
-               counter += 1
+               counter += 10
                 let flooredCounter = Int(floor(Double(counter)))
                 
                 let minute = (flooredCounter % 3600) / 60
@@ -185,15 +185,27 @@ var session:ARSession! //AR
                     self.kelopakBawahKanan.frame.origin.y += 24; }, completion: nil)
                 }
             }
-
-            @IBAction func buttonBack(_ sender: UIButton) {
-                Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
-                timer.invalidate()
-                }
-                blinkCD = 3
-                blinkCount = 0
+    @IBAction func buttonBack(_ sender: UIButton) {
+                createAlert(title: "Do you want to quit the exercise?", message: "Do you?")
             }
             
+    func createAlert(title:String, message:String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        
+        alert.addAction(UIAlertAction(title:"Yes", style: UIAlertAction.Style.default, handler: {(ACTION)in
+            alert.dismiss(animated: true, completion: nil)
+            
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewControllerID")as!HomeViewController
+            self.present(vc,animated: true,completion: nil)
+            
+        }))
+        alert.addAction(UIAlertAction(title:"No", style: UIAlertAction.Style.default, handler: {(ACTION)in
+            alert.dismiss(animated: true, completion: nil)
+            return
+        }))
+        self.present(alert,animated: true, completion: nil)
+        
+    }
 
             
             

@@ -19,6 +19,7 @@
 		C25517D52473DE9E008AD047 /* ReminderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25517D42473DE9E008AD047 /* ReminderController.swift */; };
 		C26C8F2124724DDE002D6B21 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C8F2024724DDE002D6B21 /* LeftViewController.swift */; };
 		C26C8F2324727ED4002D6B21 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C8F2224727ED4002D6B21 /* RightViewController.swift */; };
+		C26ED02B247F81B800BA845B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26ED02A247F81B800BA845B /* HomeViewController.swift */; };
 		C26ED374246E464100BDCD78 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26ED373246E464100BDCD78 /* Reminder.swift */; };
 		C26ED378246E48BD00BDCD78 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26ED377246E48BD00BDCD78 /* TableView.swift */; };
 		C27D498D246AE5010033DB91 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D498C246AE5010033DB91 /* NextViewController.swift */; };
@@ -60,6 +61,7 @@
 		C25517D42473DE9E008AD047 /* ReminderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderController.swift; sourceTree = "<group>"; };
 		C26C8F2024724DDE002D6B21 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		C26C8F2224727ED4002D6B21 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		C26ED02A247F81B800BA845B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C26ED373246E464100BDCD78 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		C26ED377246E48BD00BDCD78 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		C27D498C246AE5010033DB91 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				C26C8F2024724DDE002D6B21 /* LeftViewController.swift */,
 				C26C8F2224727ED4002D6B21 /* RightViewController.swift */,
 				C25517D42473DE9E008AD047 /* ReminderController.swift */,
+				C26ED02A247F81B800BA845B /* HomeViewController.swift */,
 				4EE9535E2469326E005B1858 /* Main.storyboard */,
 				C26ED377246E48BD00BDCD78 /* TableView.swift */,
 				4EE9536124693271005B1858 /* Assets.xcassets */,
@@ -287,6 +290,7 @@
 				C26ED378246E48BD00BDCD78 /* TableView.swift in Sources */,
 				C26ED374246E464100BDCD78 /* Reminder.swift in Sources */,
 				C26C8F2124724DDE002D6B21 /* LeftViewController.swift in Sources */,
+				C26ED02B247F81B800BA845B /* HomeViewController.swift in Sources */,
 				4EE953572469326E005B1858 /* AppDelegate.swift in Sources */,
 				4EE953592469326E005B1858 /* SceneDelegate.swift in Sources */,
 				C26C8F2324727ED4002D6B21 /* RightViewController.swift in Sources */,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yu2-a2-8t5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yu2-a2-8t5">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -101,13 +101,13 @@
                                 <rect key="frame" x="20" y="53" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.13948294520000001" green="0.2213353217" blue="0.30589336160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="arrow.left" catalog="system">
+                                <state key="normal" image="xmark" catalog="system">
                                     <color key="titleColor" red="0.13948294520000001" green="0.2213353217" blue="0.30589336160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="27" weight="heavy"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonBack:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="5pc-MR-KhX"/>
-                                    <segue destination="e30-hq-Rhp" kind="show" id="lFD-6K-Qa9"/>
+                                    <action selector="buttonBack:" destination="9Va-kV-FsS" eventType="touchUpInside" id="fLm-ge-em5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blink" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1z-7k-xBH">
@@ -152,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E8b-V0-cxt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1086" y="-68"/>
+            <point key="canvasLocation" x="-419" y="-762"/>
         </scene>
         <!--Right View Controller-->
         <scene sceneID="cEW-6Z-CGy">
@@ -181,13 +181,13 @@
                                 <rect key="frame" x="20" y="53" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.13948294520000001" green="0.2213353217" blue="0.30589336160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="arrow.left" catalog="system">
+                                <state key="normal" image="xmark" catalog="system">
                                     <color key="titleColor" red="0.13948294520000001" green="0.2213353217" blue="0.30589336160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="27" weight="heavy"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonBack:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Kt3-Ut-hWx"/>
-                                    <segue destination="e30-hq-Rhp" kind="show" id="0gG-jQ-cVx"/>
+                                    <action selector="buttonBack:" destination="hM1-pe-VWV" eventType="touchUpInside" id="g6f-tT-f7J"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWH-ET-fVc">
@@ -300,7 +300,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IcE-EQ-238" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1788" y="-68"/>
+            <point key="canvasLocation" x="281" y="-762"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="1SU-M3-aRi">
@@ -380,13 +380,13 @@
                                 <rect key="frame" x="20" y="53" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.13948294520000001" green="0.2213353217" blue="0.30589336160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="arrow.left" catalog="system">
+                                <state key="normal" image="xmark" catalog="system">
                                     <color key="titleColor" red="0.13948294520000001" green="0.2213353217" blue="0.30589336160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="27" weight="heavy"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonBack:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="8U9-a9-a92"/>
-                                    <segue destination="e30-hq-Rhp" kind="show" id="qSD-Ae-vWe"/>
+                                    <action selector="buttonBack:" destination="uqA-5x-gvA" eventType="touchUpInside" id="n4d-dp-lds"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4B-Bz-p9f">
@@ -447,7 +447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVb-4J-rqJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="394" y="-68"/>
+            <point key="canvasLocation" x="-1112" y="-762"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="wg7-f3-ORb">
@@ -524,16 +524,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4o-br-zQ5">
-                                <rect key="frame" x="20" y="53" width="34" height="28"/>
+                                <rect key="frame" x="22" y="53" width="30" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.13948294520000001" green="0.2213353217" blue="0.30589336160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="arrow.left" catalog="system">
+                                <state key="normal" image="xmark" catalog="system">
                                     <color key="titleColor" red="0.13948294520000001" green="0.2213353217" blue="0.30589336160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="27" weight="heavy"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonBack:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="4XF-K2-nrn"/>
-                                    <segue destination="e30-hq-Rhp" kind="show" id="BKn-RG-i0w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHl-UZ-g3I">
@@ -593,7 +592,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2475" y="-68"/>
+            <point key="canvasLocation" x="968" y="-762"/>
         </scene>
         <!--Next View Controller-->
         <scene sceneID="6Lf-iZ-wno">
@@ -722,7 +721,7 @@
         <!--Home Screen-->
         <scene sceneID="OKt-jF-FUK">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="e30-hq-Rhp" userLabel="Home Screen" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewControllerID" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e30-hq-Rhp" userLabel="Home Screen" customClass="HomeViewController" customModule="Lowl" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AAm-yt-BKB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -813,7 +812,7 @@
                                     <color key="titleColor" red="0.13948294520000001" green="0.2213353217" blue="0.30589336160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uqA-5x-gvA" kind="show" id="Cpg-7b-IKJ"/>
+                                    <segue destination="uqA-5x-gvA" kind="show" id="Dft-cn-0Zu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -966,9 +965,6 @@
             <point key="canvasLocation" x="-841" y="933"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="3bA-0w-Q0W"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Background" width="375" height="812"/>
         <image name="ButtonCOntinue" width="310" height="103"/>
@@ -986,5 +982,6 @@
         <image name="terminology_icon1" width="57" height="50"/>
         <image name="terminology_icon2" width="50" height="50"/>
         <image name="timer" catalog="system" width="128" height="121"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
     </resources>
 </document>
