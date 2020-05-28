@@ -9,32 +9,25 @@
 import UIKit
 import ARKit //AR
 
-class SecondViewController: UIViewController, ARSessionDelegate {
-    
-        var session:ARSession! //AR
-        var timer  = Timer()
-        var isTimerRunning = false
-        var counter = 0
-    
-    
-    
-    
-        var blinkCount : Int = 0
-        var blinkCD : Float = 3.0
-        var isBlinked : Bool = false
-        var kelopakKiriTurun : Bool = false
-        var kelopakKananTurun : Bool = false
-        @IBOutlet weak var blinkCounterLabel: UILabel!
-        @IBOutlet weak var kelopakAtasKiri: UIImageView!
-        @IBOutlet weak var kelopakBawahKiri: UIImageView!
-        @IBOutlet weak var kelopakAtasKanan: UIImageView!
-        @IBOutlet weak var kelopakBawahKanan: UIImageView!
-        @IBOutlet weak var buttonContinue1: UIButton!
-        @IBOutlet weak var timerLabel: UILabel!
-        @IBOutlet weak var startButton: UIButton!
-    
-    
-     
+class SecondViewController: UIViewController, ARSessionDelegate {    
+    var session:ARSession! //AR
+    var timer  = Timer()
+    var isTimerRunning = false
+    var counter = 0
+    var blinkCount : Int = 0
+    var blinkCD : Float = 3.0
+    var isStarted : Bool = false
+    var isBlinked : Bool = false
+    var kelopakKiriTurun : Bool = false
+    var kelopakKananTurun : Bool = false
+    @IBOutlet weak var blinkCounterLabel: UILabel!
+    @IBOutlet weak var kelopakAtasKiri: UIImageView!
+    @IBOutlet weak var kelopakBawahKiri: UIImageView!
+    @IBOutlet weak var kelopakAtasKanan: UIImageView!
+    @IBOutlet weak var kelopakBawahKanan: UIImageView!
+    @IBOutlet weak var buttonContinue1: UIButton!
+    @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var startButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +44,7 @@ class SecondViewController: UIViewController, ARSessionDelegate {
         if !isTimerRunning{
             timer = Timer.scheduledTimer(timeInterval: 1, target: self,  selector: #selector(runTimer), userInfo: nil, repeats: true)
             isTimerRunning = true
+            isStarted = true //
         }
     }
     
@@ -76,7 +70,7 @@ class SecondViewController: UIViewController, ARSessionDelegate {
         
       
         if minute == 1{
-            
+            isStarted = false
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewControllerID")as!FirstViewController
             self.present(vc,animated: true,completion: nil)
         }
@@ -123,7 +117,7 @@ class SecondViewController: UIViewController, ARSessionDelegate {
         print("Kanan \(rightBlink)")
 
 //FUNGSI UNTUK NAMBAHIN BLINK COUNT+++++++++++++++++++++++
-        if (leftBlink > 0.5 && rightBlink > 0.5 && isBlinked == false){
+        if (leftBlink > 0.5 && rightBlink > 0.5 && isBlinked == false && isStarted == true){
             isBlinked = true
             Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
                 print("Timer fired!")
@@ -144,6 +138,7 @@ class SecondViewController: UIViewController, ARSessionDelegate {
         
 //FUNGSI UNTUK NAMPILIN TOMBOL SETELAH 20 KALI BLINK
         if (blinkCount >= 20){
+            isStarted = false
             isBlinked = true
             Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
             timer.invalidate()
@@ -157,38 +152,38 @@ class SecondViewController: UIViewController, ARSessionDelegate {
         if (rightBlink > 0.5 && kelopakKiriTurun == false)
         {
             kelopakKiriTurun = true
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakAtasKiri.frame.origin.y += 24; }, completion: nil)
         
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakBawahKiri.frame.origin.y -= 24; }, completion: nil)
         }
         
         if (rightBlink < 0.5 && kelopakKiriTurun == true){
             kelopakKiriTurun = false
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakAtasKiri.frame.origin.y -= 24; }, completion: nil)
             
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakBawahKiri.frame.origin.y += 24; }, completion: nil)
         }
         
         if (leftBlink > 0.5 && kelopakKananTurun == false)
         {
             kelopakKananTurun = true
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakAtasKanan.frame.origin.y += 24; }, completion: nil)
         
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakBawahKanan.frame.origin.y -= 24; }, completion: nil)
         }
         
-        if (rightBlink < 0.5 && kelopakKananTurun == true){
+        if (leftBlink < 0.5 && kelopakKananTurun == true){
             kelopakKananTurun = false
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakAtasKanan.frame.origin.y -= 24; }, completion: nil)
             
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakBawahKanan.frame.origin.y += 24; }, completion: nil)
         }
     }
