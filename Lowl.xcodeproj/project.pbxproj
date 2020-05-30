@@ -44,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4EE953532469326E005B1858 /* Lowl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lowl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE953532469326E005B1858 /* Fantastic Rest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fantastic Rest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE953562469326E005B1858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EE953582469326E005B1858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4EE9535A2469326E005B1858 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		4EE953542469326E005B1858 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EE953532469326E005B1858 /* Lowl.app */,
+				4EE953532469326E005B1858 /* Fantastic Rest.app */,
 				4EE9536B24693271005B1858 /* LowlTests.xctest */,
 				4EE9537624693271005B1858 /* LowlUITests.xctest */,
 			);
@@ -172,7 +172,7 @@
 			);
 			name = Lowl;
 			productName = Lowl;
-			productReference = 4EE953532469326E005B1858 /* Lowl.app */;
+			productReference = 4EE953532469326E005B1858 /* Fantastic Rest.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4EE9536A24693271005B1858 /* LowlTests */ = {
@@ -478,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HarviLowl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fantastic Rest";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -496,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HarviLowl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fantastic Rest";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
