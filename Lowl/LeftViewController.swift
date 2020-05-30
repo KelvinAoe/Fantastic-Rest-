@@ -67,13 +67,34 @@ class LeftViewController: UIViewController, ARSessionDelegate {
                 timerLabel.text = "\(minuteString):\(secondString)"
                 
               
-                if minute == 1{
-                    isStarted = false
-                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "RightViewControllerID")as!RightViewController
-                    self.present(vc,animated: true,completion: nil)
-                }
-                
-                }
+               let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .heavy)
+                        if minute == 1{
+                            isTimerRunning = false
+                            timer.invalidate()
+                            isStarted = false
+                            impactFeedbackgenerator.prepare()
+                            impactFeedbackgenerator.impactOccurred()
+                                   createPop(title: "Second Exercise has done", message: "Let's continue")
+                                }
+                                
+                                }
+                            
+                            
+                func createPop(title:String, message:String) {
+                    let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+                                
+                    alert.addAction(UIAlertAction(title:"Continue", style: UIAlertAction.Style.default, handler: {(ACTION)in
+                                    alert.dismiss(animated: true, completion: nil)
+                                    
+                    let vc =
+                        self.storyboard?.instantiateViewController(withIdentifier: "RightViewControllerID")as!RightViewController
+                        self.present(vc,animated: true,completion: nil)
+                                    
+                        }))
+                        self.present(alert,animated: true, completion: nil)
+                                
+                            }
+                    
             
             
             
@@ -108,7 +129,7 @@ class LeftViewController: UIViewController, ARSessionDelegate {
             
             func update(withFaceAnchor faceAnchor: ARFaceAnchor) { //ENGINE AR NYA INI CUK
                 var bledShapes:[ARFaceAnchor.BlendShapeLocation:Any] = faceAnchor.blendShapes
-                let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .medium)
+                let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
                 guard let leftBlink = bledShapes[.eyeBlinkLeft] as? Float else {return}
                 guard let rightBlink = bledShapes[.eyeBlinkRight] as? Float else {return}
                 print("Kiri \(leftBlink)")
