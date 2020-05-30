@@ -13,7 +13,8 @@ class NextViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
          DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
-                    self.performSegue(withIdentifier: "NextId", sender: self)
+                    self.performSegue(withIdentifier: "JumpId", sender: self)
+            
               })
     }
     
