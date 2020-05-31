@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yu2-a2-8t5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yu2-a2-8t5">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,7 +10,7 @@
         <!--Left View Controller-->
         <scene sceneID="BYR-Fe-NQk">
             <objects>
-                <viewController storyboardIdentifier="LeftViewControllerID" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9Va-kV-FsS" customClass="LeftViewController" customModule="Lowl" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LeftViewControllerID" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9Va-kV-FsS" customClass="LeftViewController" customModule="Fantastic_Rest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EnN-cd-2Lp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,15 +72,15 @@
                                 <rect key="frame" x="288" y="349" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawah" translatesAutoresizingMaskIntoConstraints="NO" id="1OY-Xw-iLp">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawahOri" translatesAutoresizingMaskIntoConstraints="NO" id="1OY-Xw-iLp">
                                 <rect key="frame" x="54" y="397" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtas" translatesAutoresizingMaskIntoConstraints="NO" id="vc9-M3-Gnh" userLabel="Kelopak Atas Kiri">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtasOri" translatesAutoresizingMaskIntoConstraints="NO" id="vc9-M3-Gnh" userLabel="Kelopak Atas Kiri">
                                 <rect key="frame" x="54" y="304" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtas" translatesAutoresizingMaskIntoConstraints="NO" id="ygw-sH-nMi" userLabel="Kelopak Atas Kanan">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtasOri" translatesAutoresizingMaskIntoConstraints="NO" id="ygw-sH-nMi" userLabel="Kelopak Atas Kanan">
                                 <rect key="frame" x="264" y="304" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -117,7 +117,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawah" translatesAutoresizingMaskIntoConstraints="NO" id="OFS-2a-y6s">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawahOri" translatesAutoresizingMaskIntoConstraints="NO" id="OFS-2a-y6s">
                                 <rect key="frame" x="264" y="397" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -157,7 +157,7 @@
         <!--Right View Controller-->
         <scene sceneID="cEW-6Z-CGy">
             <objects>
-                <viewController storyboardIdentifier="RightViewControllerID" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hM1-pe-VWV" customClass="RightViewController" customModule="Lowl" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RightViewControllerID" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hM1-pe-VWV" customClass="RightViewController" customModule="Fantastic_Rest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MuS-AW-yY6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -238,7 +238,7 @@
                                 <rect key="frame" x="54" y="331" width="96" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtas" translatesAutoresizingMaskIntoConstraints="NO" id="uwv-KH-aI0" userLabel="Kelopak Atas Kiri">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtasOri" translatesAutoresizingMaskIntoConstraints="NO" id="uwv-KH-aI0" userLabel="Kelopak Atas Kiri">
                                 <rect key="frame" x="54" y="304" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -264,15 +264,15 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawah" translatesAutoresizingMaskIntoConstraints="NO" id="1cJ-A8-2UO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawahOri" translatesAutoresizingMaskIntoConstraints="NO" id="1cJ-A8-2UO">
                                 <rect key="frame" x="54" y="397" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtas" translatesAutoresizingMaskIntoConstraints="NO" id="V3B-TI-TCd" userLabel="Kelopak Atas Kanan">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtasOri" translatesAutoresizingMaskIntoConstraints="NO" id="V3B-TI-TCd" userLabel="Kelopak Atas Kanan">
                                 <rect key="frame" x="264" y="304" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawah" translatesAutoresizingMaskIntoConstraints="NO" id="nEk-36-wVg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawahOri" translatesAutoresizingMaskIntoConstraints="NO" id="nEk-36-wVg">
                                 <rect key="frame" x="264" y="397" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -305,7 +305,7 @@
         <!--First View Controller-->
         <scene sceneID="1SU-M3-aRi">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="uqA-5x-gvA" customClass="FirstViewController" customModule="Lowl" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="uqA-5x-gvA" customClass="FirstViewController" customModule="Fantastic_Rest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6BX-r2-5KM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -360,19 +360,19 @@
                                 <rect key="frame" x="78" y="349" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtas" translatesAutoresizingMaskIntoConstraints="NO" id="BJ7-XW-Cfi" userLabel="Kelopak Atas Kiri">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtasOri" translatesAutoresizingMaskIntoConstraints="NO" id="BJ7-XW-Cfi" userLabel="Kelopak Atas Kiri">
                                 <rect key="frame" x="54" y="304" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawah" translatesAutoresizingMaskIntoConstraints="NO" id="q8y-nq-O9k">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawahOri" translatesAutoresizingMaskIntoConstraints="NO" id="q8y-nq-O9k">
                                 <rect key="frame" x="54" y="397" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtas" translatesAutoresizingMaskIntoConstraints="NO" id="fdR-ad-vdS" userLabel="Kelopak Atas Kanan">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtasOri" translatesAutoresizingMaskIntoConstraints="NO" id="fdR-ad-vdS" userLabel="Kelopak Atas Kanan">
                                 <rect key="frame" x="264" y="304" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawah" translatesAutoresizingMaskIntoConstraints="NO" id="Ljr-M0-orb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawahOri" translatesAutoresizingMaskIntoConstraints="NO" id="Ljr-M0-orb">
                                 <rect key="frame" x="264" y="397" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -452,7 +452,7 @@
         <!--Second View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController storyboardIdentifier="SecondViewControllerID" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Lowl" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewControllerID" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Fantastic_Rest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -507,19 +507,19 @@
                                 <rect key="frame" x="288" y="349" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtas" translatesAutoresizingMaskIntoConstraints="NO" id="ebK-uL-keS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtasOri" translatesAutoresizingMaskIntoConstraints="NO" id="ebK-uL-keS">
                                 <rect key="frame" x="54" y="304" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawah" translatesAutoresizingMaskIntoConstraints="NO" id="KSV-Up-MqK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawahOri" translatesAutoresizingMaskIntoConstraints="NO" id="KSV-Up-MqK">
                                 <rect key="frame" x="54" y="397" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtas" translatesAutoresizingMaskIntoConstraints="NO" id="EFW-fp-zov">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtasOri" translatesAutoresizingMaskIntoConstraints="NO" id="EFW-fp-zov">
                                 <rect key="frame" x="264" y="304" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawah" translatesAutoresizingMaskIntoConstraints="NO" id="H0s-Or-chm">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakBawahOri" translatesAutoresizingMaskIntoConstraints="NO" id="H0s-Or-chm">
                                 <rect key="frame" x="264" y="397" width="96" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -597,7 +597,7 @@
         <!--Next View Controller-->
         <scene sceneID="6Lf-iZ-wno">
             <objects>
-                <viewController id="yu2-a2-8t5" customClass="NextViewController" customModule="Lowl" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yu2-a2-8t5" customClass="NextViewController" customModule="Fantastic_Rest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zjw-De-U1c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -721,7 +721,7 @@
         <!--Home Screen-->
         <scene sceneID="OKt-jF-FUK">
             <objects>
-                <viewController storyboardIdentifier="HomeViewControllerID" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e30-hq-Rhp" userLabel="Home Screen" customClass="HomeViewController" customModule="Lowl" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewControllerID" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e30-hq-Rhp" userLabel="Home Screen" customClass="HomeViewController" customModule="Fantastic_Rest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AAm-yt-BKB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -887,7 +887,7 @@
         <!--Reminder Controller-->
         <scene sceneID="jC1-YR-PmR">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="lcu-k8-f4Y" customClass="ReminderController" customModule="Lowl" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="lcu-k8-f4Y" customClass="ReminderController" customModule="Fantastic_Rest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aPr-m3-dAG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -968,20 +968,20 @@
     <resources>
         <image name="Background" width="375" height="812"/>
         <image name="ButtonCOntinue" width="310" height="103"/>
-        <image name="KelopakAtas" width="96" height="48"/>
-        <image name="KelopakBawah" width="96" height="48"/>
-        <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <image name="KelopakAtasOri" width="96" height="48"/>
+        <image name="KelopakBawahOri" width="96" height="48"/>
+        <image name="arrow.left" catalog="system" width="64" height="48"/>
         <image name="buttonPutihKecil" width="237" height="45"/>
-        <image name="circle.fill" catalog="system" width="128" height="121"/>
+        <image name="circle.fill" catalog="system" width="64" height="60"/>
         <image name="eye" width="112" height="112"/>
         <image name="eyeball" width="64" height="59"/>
-        <image name="gear" catalog="system" width="128" height="119"/>
+        <image name="gear" catalog="system" width="64" height="58"/>
         <image name="owl_body" width="612" height="732"/>
         <image name="owl_face" width="318" height="237"/>
-        <image name="square.fill" catalog="system" width="128" height="114"/>
+        <image name="square.fill" catalog="system" width="64" height="56"/>
         <image name="terminology_icon1" width="57" height="50"/>
         <image name="terminology_icon2" width="50" height="50"/>
-        <image name="timer" catalog="system" width="128" height="121"/>
-        <image name="xmark" catalog="system" width="128" height="113"/>
+        <image name="timer" catalog="system" width="64" height="60"/>
+        <image name="xmark" catalog="system" width="64" height="56"/>
     </resources>
 </document>
