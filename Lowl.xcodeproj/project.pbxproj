@@ -69,6 +69,7 @@
 		C26ED377246E48BD00BDCD78 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		C27D498C246AE5010033DB91 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		C2A594852482B41C00E299A7 /* JumpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpView.swift; sourceTree = "<group>"; };
+		C2A5948D2483B06D00E299A7 /* Fantastic Rest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fantastic Rest.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,7 @@
 		4EE953552469326E005B1858 /* Lowl */ = {
 			isa = PBXGroup;
 			children = (
+				C2A5948D2483B06D00E299A7 /* Fantastic Rest.entitlements */,
 				4EE953562469326E005B1858 /* AppDelegate.swift */,
 				4EE953582469326E005B1858 /* SceneDelegate.swift */,
 				4EE9535A2469326E005B1858 /* FirstViewController.swift */,
@@ -222,7 +224,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Muhammad Harviando";
+				ORGANIZATIONNAME = "Kelvin Aoe";
 				TargetAttributes = {
 					4EE953522469326E005B1858 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -474,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lowl/Fantastic Rest.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJMMAN66X2;
 				INFOPLIST_FILE = Lowl/Info.plist;
@@ -481,7 +484,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HarviLowl;
+				PRODUCT_BUNDLE_IDENTIFIER = www.infinitelerning.id.Fantastic.Rest;
 				PRODUCT_NAME = "Fantastic Rest";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,15 +495,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lowl/Fantastic Rest.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
+				DEVELOPMENT_TEAM = NJMMAN66X2;
 				INFOPLIST_FILE = Lowl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HarviLowl;
+				PRODUCT_BUNDLE_IDENTIFIER = www.infinitelerning.id.Fantastic.Rest;
 				PRODUCT_NAME = "Fantastic Rest";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -512,7 +518,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
+				DEVELOPMENT_TEAM = NJMMAN66X2;
 				INFOPLIST_FILE = LowlTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -534,7 +540,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
+				DEVELOPMENT_TEAM = NJMMAN66X2;
 				INFOPLIST_FILE = LowlTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -554,8 +560,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
+				DEVELOPMENT_TEAM = NJMMAN66X2;
 				INFOPLIST_FILE = LowlUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -574,8 +581,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
+				DEVELOPMENT_TEAM = NJMMAN66X2;
 				INFOPLIST_FILE = LowlUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

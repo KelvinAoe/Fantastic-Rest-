@@ -50,7 +50,7 @@ class RightViewController: UIViewController ,ARSessionDelegate {
             }
             
             @objc func runTimer() {
-               counter += 10
+               counter += 1
                 let flooredCounter = Int(floor(Double(counter)))
                 
                 let minute = (flooredCounter % 3600) / 60
