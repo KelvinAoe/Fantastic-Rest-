@@ -101,9 +101,10 @@ class ReminderController: UIViewController, UNUserNotificationCenterDelegate {
             UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["timer1"])
             switchThree.isEnabled = true
             switchTwo.isEnabled = true
+            switch1State = false
         }
         save()
-        
+        print("Switch 1 state = \(switch1State)")
     }
   
     
@@ -137,8 +138,10 @@ class ReminderController: UIViewController, UNUserNotificationCenterDelegate {
                 UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["timer2"])
             switchThree.isEnabled = true
             switchOne.isEnabled = true
+            switch2State = false
             }
         save()
+        print("Switch 2 State = \(switch2State)")
        
         }
     
@@ -170,8 +173,10 @@ class ReminderController: UIViewController, UNUserNotificationCenterDelegate {
             UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["timer3"])
             switchTwo.isEnabled = true
             switchOne.isEnabled = true
+            switch3State = false
         }
         save()
+        print("Switch 3 State = \(switch3State)")
         
     }
     
