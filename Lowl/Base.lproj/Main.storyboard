@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yu2-a2-8t5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yu2-a2-8t5">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -625,7 +625,7 @@
         <!--Terminology-->
         <scene sceneID="C6h-Lr-nLF">
             <objects>
-                <viewController modalPresentationStyle="formSheet" id="RnF-Zw-Y3d" userLabel="Terminology" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="formSheet" id="RnF-Zw-Y3d" userLabel="Terminology" customClass="OnboardViewController" customModule="Fantastic_Rest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0U-lr-EZ9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -678,6 +678,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFs-xq-WNq">
                                 <rect key="frame" x="52" y="691" width="310" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Continue"/>
                                 <state key="normal" image="ButtonCOntinue"/>
                                 <connections>
                                     <segue destination="e30-hq-Rhp" kind="show" id="3bA-0w-Q0W"/>
@@ -713,6 +714,16 @@
                         <viewLayoutGuide key="safeArea" id="6Y5-FJ-mTf"/>
                     </view>
                     <navigationItem key="navigationItem" id="rlb-Dh-QUz"/>
+                    <connections>
+                        <outlet property="bodyOneLabel" destination="0IA-PJ-Gwd" id="FAB-Gt-beh"/>
+                        <outlet property="bodyThreeLabel" destination="IIc-jW-4tt" id="IW7-jb-lW0"/>
+                        <outlet property="bodyTwoLabel" destination="12M-0K-OHj" id="MN5-bk-yhn"/>
+                        <outlet property="contButton" destination="4C1-jf-d9g" id="233-7s-jgR"/>
+                        <outlet property="subOneLabel" destination="uCq-pu-Yjc" id="HBn-Ke-UFH"/>
+                        <outlet property="subThreeLabel" destination="PaF-sk-qQf" id="ZMk-cS-abi"/>
+                        <outlet property="subTwoLabel" destination="BuO-Zo-Z7b" id="I83-Je-C2l"/>
+                        <outlet property="welcomeLabel" destination="MSj-La-SF6" id="KDP-EW-gd8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3f-1t-aQP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1239,7 +1250,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="yX8-xy-QyJ"/>
         <segue reference="Q7G-1Y-E4L"/>
-        <segue reference="RZj-7f-mZO"/>
+        <segue reference="3bA-0w-Q0W"/>
         <segue reference="Dft-cn-0Zu"/>
     </inferredMetricsTieBreakers>
     <resources>

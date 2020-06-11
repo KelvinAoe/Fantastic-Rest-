@@ -16,6 +16,7 @@
 		4EE9536524693271005B1858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE9536324693271005B1858 /* LaunchScreen.storyboard */; };
 		4EE9537024693271005B1858 /* LowlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9536F24693271005B1858 /* LowlTests.swift */; };
 		4EE9537B24693271005B1858 /* LowlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9537A24693271005B1858 /* LowlUITests.swift */; };
+		8BD974082492882200F06FBD /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD974072492882200F06FBD /* OnboardViewController.swift */; };
 		C25517D52473DE9E008AD047 /* ReminderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25517D42473DE9E008AD047 /* ReminderController.swift */; };
 		C261CD9524826DA200EE7DBC /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C261CD9424826DA200EE7DBC /* FiveViewController.swift */; };
 		C26C8F2124724DDE002D6B21 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C8F2024724DDE002D6B21 /* LeftViewController.swift */; };
@@ -60,6 +61,7 @@
 		4EE9537624693271005B1858 /* LowlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LowlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE9537A24693271005B1858 /* LowlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowlUITests.swift; sourceTree = "<group>"; };
 		4EE9537C24693271005B1858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD974072492882200F06FBD /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
 		C25517D42473DE9E008AD047 /* ReminderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderController.swift; sourceTree = "<group>"; };
 		C261CD9424826DA200EE7DBC /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
 		C26C8F2024724DDE002D6B21 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				4EE9536324693271005B1858 /* LaunchScreen.storyboard */,
 				4EE9536624693271005B1858 /* Info.plist */,
 				C26ED373246E464100BDCD78 /* Reminder.swift */,
+				8BD974072492882200F06FBD /* OnboardViewController.swift */,
 			);
 			path = Lowl;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				C26ED378246E48BD00BDCD78 /* TableView.swift in Sources */,
 				C26ED374246E464100BDCD78 /* Reminder.swift in Sources */,
 				C26C8F2124724DDE002D6B21 /* LeftViewController.swift in Sources */,
+				8BD974082492882200F06FBD /* OnboardViewController.swift in Sources */,
 				C26ED02B247F81B800BA845B /* HomeViewController.swift in Sources */,
 				4EE953572469326E005B1858 /* AppDelegate.swift in Sources */,
 				4EE953592469326E005B1858 /* SceneDelegate.swift in Sources */,
