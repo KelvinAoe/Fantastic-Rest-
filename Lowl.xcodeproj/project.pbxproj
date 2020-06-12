@@ -25,6 +25,7 @@
 		C26ED378246E48BD00BDCD78 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26ED377246E48BD00BDCD78 /* TableView.swift */; };
 		C27D498D246AE5010033DB91 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D498C246AE5010033DB91 /* NextViewController.swift */; };
 		C2A594862482B41C00E299A7 /* JumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A594852482B41C00E299A7 /* JumpView.swift */; };
+		E223B24F2493EB5100F4223B /* about.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223B24E2493EB5100F4223B /* about.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		C27D498C246AE5010033DB91 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		C2A594852482B41C00E299A7 /* JumpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpView.swift; sourceTree = "<group>"; };
 		C2A5948D2483B06D00E299A7 /* Fantastic Rest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fantastic Rest.entitlements"; sourceTree = "<group>"; };
+		E223B24E2493EB5100F4223B /* about.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = about.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				C26ED02A247F81B800BA845B /* HomeViewController.swift */,
 				C2A594852482B41C00E299A7 /* JumpView.swift */,
 				4EE9535E2469326E005B1858 /* Main.storyboard */,
+				E223B24E2493EB5100F4223B /* about.swift */,
 				C26ED377246E48BD00BDCD78 /* TableView.swift */,
 				4EE9536124693271005B1858 /* Assets.xcassets */,
 				4EE9536324693271005B1858 /* LaunchScreen.storyboard */,
@@ -298,6 +301,7 @@
 				C261CD9524826DA200EE7DBC /* FiveViewController.swift in Sources */,
 				C26ED378246E48BD00BDCD78 /* TableView.swift in Sources */,
 				C26ED374246E464100BDCD78 /* Reminder.swift in Sources */,
+				E223B24F2493EB5100F4223B /* about.swift in Sources */,
 				C26C8F2124724DDE002D6B21 /* LeftViewController.swift in Sources */,
 				C26ED02B247F81B800BA845B /* HomeViewController.swift in Sources */,
 				4EE953572469326E005B1858 /* AppDelegate.swift in Sources */,
