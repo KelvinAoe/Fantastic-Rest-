@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yu2-a2-8t5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yu2-a2-8t5">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -31,7 +31,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2h-a1-oNf">
-                                <rect key="frame" x="225" y="537" width="135" height="121"/>
+                                <rect key="frame" x="225" y="534" width="135" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00">
@@ -45,7 +45,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uls-Q9-9w7">
-                                <rect key="frame" x="54" y="549" width="150" height="98"/>
+                                <rect key="frame" x="83" y="534" width="150" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00:00">
@@ -141,18 +141,24 @@
                     </view>
                     <connections>
                         <outlet property="blinkCounterLabel" destination="d2h-a1-oNf" id="92s-rw-3c6"/>
+                        <outlet property="blinkCounterText" destination="d2h-a1-oNf" id="0fC-BA-fDH"/>
+                        <outlet property="blinkText" destination="p1z-7k-xBH" id="fag-pM-uEC"/>
                         <outlet property="buttonContinue1" destination="JcC-Nj-sMh" id="YDD-t6-Glk"/>
+                        <outlet property="exerciseDescText" destination="BMF-Mb-O55" id="8S4-eD-tu0"/>
+                        <outlet property="exerciseTitleText" destination="2qP-X0-3nG" id="4bo-DI-0Kg"/>
                         <outlet property="kelopakAtasKanan" destination="ygw-sH-nMi" id="2vN-sN-ZZo"/>
                         <outlet property="kelopakAtasKiri" destination="vc9-M3-Gnh" id="xkD-Tg-nRM"/>
                         <outlet property="kelopakBawahKanan" destination="OFS-2a-y6s" id="HJM-W7-hyV"/>
                         <outlet property="kelopakBawahKiri" destination="1OY-Xw-iLp" id="5kk-g9-gEm"/>
                         <outlet property="startButton" destination="JcC-Nj-sMh" id="Rwu-Or-eRT"/>
+                        <outlet property="timerCounterText" destination="Uls-Q9-9w7" id="NVV-qX-BQ6"/>
                         <outlet property="timerLabel" destination="Uls-Q9-9w7" id="srt-h9-qT3"/>
+                        <outlet property="timerText" destination="SPi-nD-fvN" id="CMV-t1-ZRV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E8b-V0-cxt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-419" y="-762"/>
+            <point key="canvasLocation" x="-420.28985507246381" y="-762.05357142857144"/>
         </scene>
         <!--Right View Controller-->
         <scene sceneID="cEW-6Z-CGy">
@@ -205,7 +211,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVh-aH-lXw">
-                                <rect key="frame" x="54" y="549" width="150" height="98"/>
+                                <rect key="frame" x="83" y="534" width="150" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00:00">
@@ -263,7 +269,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-B4-noN">
-                                <rect key="frame" x="225" y="537" width="135" height="121"/>
+                                <rect key="frame" x="225" y="534" width="135" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00">
@@ -289,18 +295,24 @@
                     </view>
                     <connections>
                         <outlet property="blinkCounterLabel" destination="bdb-B4-noN" id="4ut-Eg-rvt"/>
+                        <outlet property="blinkCounterText" destination="bdb-B4-noN" id="Dq8-xb-7T1"/>
+                        <outlet property="blinkText" destination="ilE-hy-08X" id="1ZI-1D-Vmb"/>
                         <outlet property="buttonContinue1" destination="rI2-ib-Ww6" id="9GV-Wn-NS5"/>
+                        <outlet property="exerciseDescText" destination="AvR-Sp-shI" id="N8f-7e-x9D"/>
+                        <outlet property="exerciseTitleText" destination="ugM-aA-2qF" id="PcD-ED-l4k"/>
                         <outlet property="kelopakAtasKanan" destination="V3B-TI-TCd" id="80J-DV-hWP"/>
                         <outlet property="kelopakAtasKiri" destination="uwv-KH-aI0" id="vx2-UJ-YJs"/>
                         <outlet property="kelopakBawahKanan" destination="nEk-36-wVg" id="88g-zA-kCI"/>
                         <outlet property="kelopakBawahKiri" destination="1cJ-A8-2UO" id="sCq-x4-F4P"/>
                         <outlet property="startButton" destination="rI2-ib-Ww6" id="wVK-GE-0G0"/>
+                        <outlet property="timerCounterText" destination="hVh-aH-lXw" id="Ebi-dS-mKw"/>
                         <outlet property="timerLabel" destination="hVh-aH-lXw" id="V2Z-Vc-fIg"/>
+                        <outlet property="timerText" destination="IWH-ET-fVc" id="c3w-dc-18r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IcE-EQ-238" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="281" y="-762"/>
+            <point key="canvasLocation" x="279.71014492753625" y="-762.05357142857144"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="1SU-M3-aRi">
@@ -326,7 +338,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yt-Eg-uar">
-                                <rect key="frame" x="54" y="549" width="150" height="98"/>
+                                <rect key="frame" x="83" y="534" width="150" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00:00">
@@ -416,7 +428,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nW-bB-wd4">
-                                <rect key="frame" x="225" y="537" width="135" height="121"/>
+                                <rect key="frame" x="225" y="534" width="135" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00">
@@ -436,18 +448,24 @@
                     <navigationItem key="navigationItem" id="23r-ft-XLI"/>
                     <connections>
                         <outlet property="blinkCounterLabel" destination="7nW-bB-wd4" id="Q5n-qI-ukr"/>
+                        <outlet property="blinkCounterText" destination="7nW-bB-wd4" id="G46-fh-z6V"/>
+                        <outlet property="blinkText" destination="d37-8M-3JQ" id="etL-Rb-1UF"/>
                         <outlet property="buttonContinue1" destination="Y4B-Bz-p9f" id="Ghe-Qp-Uui"/>
+                        <outlet property="exerciseDescText" destination="MlU-1S-gQY" id="hzL-hO-dg3"/>
+                        <outlet property="exerciseTitleText" destination="vVR-NE-8jR" id="uEq-Fc-e1I"/>
                         <outlet property="kelopakAtasKanan" destination="fdR-ad-vdS" id="b5A-Og-Q3A"/>
                         <outlet property="kelopakAtasKiri" destination="BJ7-XW-Cfi" id="fsH-de-NDe"/>
                         <outlet property="kelopakBawahKanan" destination="Ljr-M0-orb" id="Kj4-7x-goV"/>
                         <outlet property="kelopakBawahKiri" destination="q8y-nq-O9k" id="yur-Sz-aYR"/>
                         <outlet property="startButton" destination="Y4B-Bz-p9f" id="dzQ-2h-jiZ"/>
+                        <outlet property="timerCounterText" destination="0yt-Eg-uar" id="bCu-PU-8g1"/>
                         <outlet property="timerLabel" destination="0yt-Eg-uar" id="kVL-hj-qJw"/>
+                        <outlet property="timerText" destination="fwV-SA-iVH" id="ZdW-2Y-beZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVb-4J-rqJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1112" y="-762"/>
+            <point key="canvasLocation" x="-1113.0434782608697" y="-762.05357142857144"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="wg7-f3-ORb">
@@ -466,7 +484,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWy-MV-oCF">
-                                <rect key="frame" x="54" y="549" width="150" height="98"/>
+                                <rect key="frame" x="83" y="534" width="150" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00:00">
@@ -529,7 +547,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgR-iU-hN0">
-                                <rect key="frame" x="225" y="537" width="135" height="121"/>
+                                <rect key="frame" x="225" y="534" width="135" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00">
@@ -581,18 +599,24 @@
                     <navigationItem key="navigationItem" id="bei-0h-o8O"/>
                     <connections>
                         <outlet property="blinkCounterLabel" destination="GgR-iU-hN0" id="O4R-kv-nXr"/>
+                        <outlet property="blinkCounterText" destination="GgR-iU-hN0" id="mde-dw-omG"/>
+                        <outlet property="blinkText" destination="alb-NJ-2p1" id="CJa-RE-wAb"/>
                         <outlet property="buttonContinue1" destination="yHl-UZ-g3I" id="zKV-fd-Y1P"/>
+                        <outlet property="exerciseDescText" destination="a6i-xE-MbW" id="amL-kH-8bb"/>
+                        <outlet property="exerciseTitleText" destination="tJQ-LB-sox" id="lHv-p8-lRA"/>
                         <outlet property="kelopakAtasKanan" destination="EFW-fp-zov" id="x9V-G6-xW7"/>
                         <outlet property="kelopakAtasKiri" destination="ebK-uL-keS" id="gtd-ZT-Ayh"/>
                         <outlet property="kelopakBawahKanan" destination="H0s-Or-chm" id="5bi-p5-MGZ"/>
                         <outlet property="kelopakBawahKiri" destination="KSV-Up-MqK" id="m7j-d1-UgU"/>
                         <outlet property="startButton" destination="yHl-UZ-g3I" id="fKJ-Ja-Tbj"/>
+                        <outlet property="timerCounterText" destination="sWy-MV-oCF" id="SW8-U0-i1u"/>
                         <outlet property="timerLabel" destination="sWy-MV-oCF" id="bT6-uo-QpO"/>
+                        <outlet property="timerText" destination="B3Q-pt-zgy" id="sR7-iW-sMy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="968" y="-762"/>
+            <point key="canvasLocation" x="966.66666666666674" y="-762.05357142857144"/>
         </scene>
         <!--Next View Controller-->
         <scene sceneID="6Lf-iZ-wno">
@@ -992,7 +1016,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDz-XX-CGU">
-                                <rect key="frame" x="54" y="549" width="150" height="98"/>
+                                <rect key="frame" x="83" y="534" width="150" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00:00">
@@ -1055,7 +1079,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hid-wl-kTG">
-                                <rect key="frame" x="225" y="537" width="135" height="121"/>
+                                <rect key="frame" x="225" y="534" width="135" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="00">
@@ -1107,13 +1131,19 @@
                     <navigationItem key="navigationItem" id="Qmt-bs-dVz"/>
                     <connections>
                         <outlet property="blinkCounterLabel" destination="hid-wl-kTG" id="B1e-ys-UIb"/>
+                        <outlet property="blinkCounterText" destination="hid-wl-kTG" id="m1X-3f-CaL"/>
+                        <outlet property="blinkText" destination="XoA-oq-SN0" id="3wf-mP-otl"/>
                         <outlet property="buttonContinue1" destination="0Lh-yC-gN1" id="C8k-uZ-PbA"/>
+                        <outlet property="exerciseDescText" destination="VLg-is-dey" id="Vs2-4A-m0c"/>
+                        <outlet property="exerciseTitleText" destination="kz0-VB-sFX" id="Gek-En-Ww8"/>
                         <outlet property="kelopakAtasKanan" destination="pNQ-KI-bPd" id="alT-LA-pS1"/>
                         <outlet property="kelopakAtasKiri" destination="g6a-b3-pAE" id="t4z-TI-paF"/>
                         <outlet property="kelopakBawahKanan" destination="lVZ-ac-uDm" id="yb7-NG-WpV"/>
                         <outlet property="kelopakBawahKiri" destination="1Ot-wT-tKy" id="2gA-iB-1Wq"/>
                         <outlet property="startButton" destination="0Lh-yC-gN1" id="AY1-mM-uWo"/>
+                        <outlet property="timerCounterText" destination="NDz-XX-CGU" id="N1r-w6-QZZ"/>
                         <outlet property="timerLabel" destination="NDz-XX-CGU" id="1yK-7t-yPd"/>
+                        <outlet property="timerText" destination="i8S-I6-yaH" id="8CT-Ii-CLH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vw3-dg-WQX" sceneMemberID="firstResponder"/>
@@ -1236,29 +1266,29 @@
             <point key="canvasLocation" x="-1913" y="-227"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="yX8-xy-QyJ"/>
-        <segue reference="Q7G-1Y-E4L"/>
-        <segue reference="RZj-7f-mZO"/>
-        <segue reference="Dft-cn-0Zu"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Background" width="375" height="812"/>
         <image name="ButtonCOntinue" width="310" height="103"/>
         <image name="KelopakAtas" width="96" height="48"/>
         <image name="KelopakBawah" width="96" height="48"/>
-        <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <image name="arrow.left" catalog="system" width="64" height="48"/>
         <image name="buttonPutihKecil" width="237" height="45"/>
-        <image name="circle.fill" catalog="system" width="128" height="121"/>
+        <image name="circle.fill" catalog="system" width="64" height="60"/>
         <image name="eye" width="112" height="112"/>
         <image name="eyeball" width="64" height="59"/>
-        <image name="gear" catalog="system" width="128" height="119"/>
+        <image name="gear" catalog="system" width="64" height="58"/>
         <image name="owl_body" width="612" height="732"/>
         <image name="owl_face" width="318" height="237"/>
-        <image name="square.fill" catalog="system" width="128" height="114"/>
+        <image name="square.fill" catalog="system" width="64" height="56"/>
         <image name="terminology_icon1" width="57" height="50"/>
         <image name="terminology_icon2" width="50" height="50"/>
-        <image name="timer" catalog="system" width="128" height="121"/>
-        <image name="xmark" catalog="system" width="128" height="113"/>
+        <image name="timer" catalog="system" width="64" height="60"/>
+        <image name="xmark" catalog="system" width="64" height="56"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="yX8-xy-QyJ"/>
+        <segue reference="Sey-n5-eMV"/>
+        <segue reference="RZj-7f-mZO"/>
+        <segue reference="Dft-cn-0Zu"/>
+    </inferredMetricsTieBreakers>
 </document>

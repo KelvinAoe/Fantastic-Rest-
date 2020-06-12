@@ -20,6 +20,7 @@ class SecondViewController: UIViewController, ARSessionDelegate {
     var isBlinked : Bool = false
     var kelopakKiriTurun : Bool = false
     var kelopakKananTurun : Bool = false
+    
     @IBOutlet weak var blinkCounterLabel: UILabel!
     @IBOutlet weak var kelopakAtasKiri: UIImageView!
     @IBOutlet weak var kelopakBawahKiri: UIImageView!
@@ -29,8 +30,37 @@ class SecondViewController: UIViewController, ARSessionDelegate {
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var startButton: UIButton!
     
+    @IBOutlet weak var exerciseTitleText: UILabel!
+    @IBOutlet weak var exerciseDescText: UILabel!
+    @IBOutlet weak var timerText: UILabel!
+    @IBOutlet weak var blinkText: UILabel!
+    @IBOutlet weak var timerCounterText: UILabel!
+    @IBOutlet weak var blinkCounterText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Accessibility
+        exerciseTitleText.font = .preferredFont(forTextStyle: .largeTitle)
+        exerciseTitleText.adjustsFontForContentSizeCategory = true
+        
+        exerciseDescText.font = .preferredFont(forTextStyle: .subheadline)
+        exerciseDescText.adjustsFontForContentSizeCategory = true
+        
+        timerText.font = .preferredFont(forTextStyle: .title1)
+        timerText.adjustsFontForContentSizeCategory = true
+        
+        blinkText.font = .preferredFont(forTextStyle: .title1)
+        blinkText.adjustsFontForContentSizeCategory = true
+        
+        timerCounterText.font = .preferredFont(forTextStyle: .largeTitle)
+        timerCounterText.adjustsFontForContentSizeCategory = true
+        
+        blinkCounterText.font = .preferredFont(forTextStyle: .largeTitle)
+        blinkCounterText.adjustsFontForContentSizeCategory = true
+        
+        buttonContinue1.titleLabel?.font = .preferredFont(forTextStyle: .largeTitle)
+        buttonContinue1.titleLabel?.adjustsFontForContentSizeCategory = true
+        
         // Do any additional setup after loading the view.
         blinkCounterLabel.text = "\(blinkCount)"
         
@@ -49,7 +79,7 @@ class SecondViewController: UIViewController, ARSessionDelegate {
     }
     
     @objc func runTimer() {
-       counter += 1
+       counter += 10
         let flooredCounter = Int(floor(Double(counter)))
         
         let minute = (flooredCounter % 3600) / 60
