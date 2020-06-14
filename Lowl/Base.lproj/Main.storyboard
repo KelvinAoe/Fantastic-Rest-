@@ -730,45 +730,47 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMt-95-uzI">
-                                <rect key="frame" x="156" y="677" width="103" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98209856250000005" green="0.98657392190000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="circle.fill" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="103"/>
-                                </state>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="terminology_icon1" translatesAutoresizingMaskIntoConstraints="NO" id="Oph-bb-8UT">
-                                <rect key="frame" x="180" y="701" width="55" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98209856250000005" green="0.98657392190000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="owl_body" translatesAutoresizingMaskIntoConstraints="NO" id="btP-PC-vWL">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="owl_body" highlightedImage="owl_body" translatesAutoresizingMaskIntoConstraints="NO" id="btP-PC-vWL">
                                 <rect key="frame" x="-86" y="4" width="587" height="1108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" translatesAutoresizingMaskIntoConstraints="NO" id="GX8-3M-6wk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" highlightedImage="eye" translatesAutoresizingMaskIntoConstraints="NO" id="GX8-3M-6wk">
                                 <rect key="frame" x="264" y="334" width="96" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="RighEye">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" translatesAutoresizingMaskIntoConstraints="NO" id="Plc-E8-RxK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" highlightedImage="eye" translatesAutoresizingMaskIntoConstraints="NO" id="Plc-E8-RxK">
                                 <rect key="frame" x="54" y="334" width="96" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="LeftEye">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" translatesAutoresizingMaskIntoConstraints="NO" id="3Zd-ZC-sbB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" highlightedImage="eyeball" translatesAutoresizingMaskIntoConstraints="NO" id="3Zd-ZC-sbB">
                                 <rect key="frame" x="288" y="352" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="RightEyeball">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" translatesAutoresizingMaskIntoConstraints="NO" id="CJM-JW-unA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" highlightedImage="eyeball" translatesAutoresizingMaskIntoConstraints="NO" id="CJM-JW-unA">
                                 <rect key="frame" x="78" y="352" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="LeftEyeBall">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0Jr-vh-kFS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.fill" catalog="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Jr-vh-kFS">
                                 <rect key="frame" x="-69" y="741" width="551" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.93369835619999997" green="0.95239645240000004" blue="0.97647541760000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fantastic Rest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdR-dw-nqA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fantastic Rest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdR-dw-nqA">
                                 <rect key="frame" x="37" y="106" width="340" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="49"/>
@@ -782,7 +784,7 @@
                                 <color key="textColor" red="0.70129901183189014" green="0.71523468015194169" blue="0.73744844543147203" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYF-ng-g8p">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYF-ng-g8p">
                                 <rect key="frame" x="82" y="680" width="252" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
@@ -793,7 +795,7 @@
                                     <segue destination="lcu-k8-f4Y" kind="show" id="yX8-xy-QyJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2b-kp-WW2">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2b-kp-WW2">
                                 <rect key="frame" x="52" y="568" width="310" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="53"/>
@@ -804,8 +806,8 @@
                                     <segue destination="uqA-5x-gvA" kind="show" id="Dft-cn-0Zu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zQ-MB-bYr">
-                                <rect key="frame" x="113" y="740" width="191" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zQ-MB-bYr">
+                                <rect key="frame" x="112" y="740" width="192" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
                                 <state key="normal" title="About" backgroundImage="buttonPutihKecil">
@@ -825,10 +827,20 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="IEE-gw-kA5"/>
+                    <connections>
+                        <outlet property="aboutButton" destination="2zQ-MB-bYr" id="i6b-oi-U9y"/>
+                        <outlet property="eyeKanan" destination="GX8-3M-6wk" id="RMW-Kv-kZM"/>
+                        <outlet property="eyeKiri" destination="Plc-E8-RxK" id="pFU-tu-vxZ"/>
+                        <outlet property="eyeballKanan" destination="3Zd-ZC-sbB" id="V9v-ZE-JAA"/>
+                        <outlet property="eyeballKiri" destination="CJM-JW-unA" id="SAd-mp-mZM"/>
+                        <outlet property="reminderButton" destination="cYF-ng-g8p" id="Bub-o1-BN5"/>
+                        <outlet property="startButton" destination="z2b-kp-WW2" id="nmc-mT-w9i"/>
+                        <outlet property="titleText" destination="xdR-dw-nqA" id="SHd-Ce-GgY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sw0-FQ-nnQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1113.0434782608697" y="-68.303571428571431"/>
+            <point key="canvasLocation" x="-1113" y="-68"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="L8L-du-NMH">
@@ -1132,45 +1144,47 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8M-My-NUk">
-                                <rect key="frame" x="156" y="677" width="103" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98209856250000005" green="0.98657392190000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="circle.fill" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="103"/>
-                                </state>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="terminology_icon1" translatesAutoresizingMaskIntoConstraints="NO" id="xSG-EG-29R">
-                                <rect key="frame" x="180" y="701" width="55" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98209856250000005" green="0.98657392190000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="owl_body" translatesAutoresizingMaskIntoConstraints="NO" id="wIa-i8-HAH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="owl_body" highlightedImage="owl_body" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wIa-i8-HAH">
                                 <rect key="frame" x="-86" y="4" width="587" height="1108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" translatesAutoresizingMaskIntoConstraints="NO" id="0Rx-HG-01t">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" highlightedImage="eye" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Rx-HG-01t">
                                 <rect key="frame" x="264" y="334" width="96" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="RightEye">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" translatesAutoresizingMaskIntoConstraints="NO" id="MmB-Ff-SuY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" highlightedImage="eye" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MmB-Ff-SuY">
                                 <rect key="frame" x="54" y="334" width="96" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="LeftEye">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" translatesAutoresizingMaskIntoConstraints="NO" id="CZQ-qq-r5s">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" highlightedImage="eyeball" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CZQ-qq-r5s">
                                 <rect key="frame" x="288" y="352" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="RightEyeBall">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" translatesAutoresizingMaskIntoConstraints="NO" id="GoQ-af-apO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" highlightedImage="eyeball" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GoQ-af-apO">
                                 <rect key="frame" x="78" y="352" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="LeftEyeBall">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6yp-Uo-f7i">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.fill" catalog="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6yp-Uo-f7i">
                                 <rect key="frame" x="-69" y="741" width="551" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.93369835619999997" green="0.95239645240000004" blue="0.97647541760000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fantastic Rest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yah-Sq-AK4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fantastic Rest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yah-Sq-AK4">
                                 <rect key="frame" x="37" y="106" width="340" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="49"/>
@@ -1184,7 +1198,7 @@
                                 <color key="textColor" red="0.70129901179999998" green="0.71523468020000003" blue="0.73744844539999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brE-pJ-V7S">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brE-pJ-V7S">
                                 <rect key="frame" x="82" y="680" width="252" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
@@ -1195,8 +1209,8 @@
                                     <segue destination="lcu-k8-f4Y" kind="show" id="Po8-gW-uNC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYz-Pa-NeS">
-                                <rect key="frame" x="113" y="740" width="191" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYz-Pa-NeS">
+                                <rect key="frame" x="110" y="740" width="192" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
                                 <state key="normal" title="About" backgroundImage="buttonPutihKecil">
@@ -1206,7 +1220,7 @@
                                     <segue destination="5Lg-sn-hhN" kind="show" id="Q7G-1Y-E4L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5Y-oP-pjU">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5Y-oP-pjU">
                                 <rect key="frame" x="52" y="568" width="310" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="53"/>
@@ -1228,19 +1242,27 @@
                     </view>
                     <navigationItem key="navigationItem" id="PG9-B9-uMy"/>
                     <connections>
+                        <outlet property="aboutButton" destination="vYz-Pa-NeS" id="MFx-dv-w8S"/>
+                        <outlet property="eyeKanan" destination="0Rx-HG-01t" id="eZb-eW-mSR"/>
+                        <outlet property="eyeKiri" destination="MmB-Ff-SuY" id="r1z-YO-E6p"/>
+                        <outlet property="eyeballKanan" destination="CZQ-qq-r5s" id="YhP-ge-Yuv"/>
+                        <outlet property="eyeballKiri" destination="GoQ-af-apO" id="55i-f8-KTU"/>
+                        <outlet property="reminderButton" destination="brE-pJ-V7S" id="bmv-lz-ehz"/>
+                        <outlet property="startButton" destination="x5Y-oP-pjU" id="zp0-A3-76q"/>
+                        <outlet property="titleText" destination="Yah-Sq-AK4" id="pPd-D6-lYe"/>
                         <segue destination="RnF-Zw-Y3d" kind="show" identifier="FromID" id="eSi-Id-ynx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M13-5O-CpP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1913" y="-227"/>
+            <point key="canvasLocation" x="-1913.0434782608697" y="-227.00892857142856"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yX8-xy-QyJ"/>
+        <segue reference="Po8-gW-uNC"/>
         <segue reference="Q7G-1Y-E4L"/>
-        <segue reference="RZj-7f-mZO"/>
-        <segue reference="Dft-cn-0Zu"/>
+        <segue reference="3bA-0w-Q0W"/>
+        <segue reference="8yl-zN-72A"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background" width="375" height="812"/>
@@ -1249,14 +1271,12 @@
         <image name="KelopakBawah" width="96" height="48"/>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="buttonPutihKecil" width="237" height="45"/>
-        <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="eye" width="112" height="112"/>
         <image name="eyeball" width="64" height="59"/>
         <image name="gear" catalog="system" width="128" height="119"/>
         <image name="owl_body" width="612" height="732"/>
         <image name="owl_face" width="318" height="237"/>
         <image name="square.fill" catalog="system" width="128" height="114"/>
-        <image name="terminology_icon1" width="57" height="50"/>
         <image name="terminology_icon2" width="50" height="50"/>
         <image name="timer" catalog="system" width="128" height="121"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
