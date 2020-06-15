@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yu2-a2-8t5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yu2-a2-8t5">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -960,59 +960,59 @@
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dsz-jp-RXa">
-                                <rect key="frame" x="347" y="194" width="49" height="31"/>
+                                <rect key="frame" x="332" y="199" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="switch1Toggled:" destination="lcu-k8-f4Y" eventType="valueChanged" id="wiF-NX-woe"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reminder" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilx-NW-zeN">
-                                <rect key="frame" x="127" y="111" width="140" height="41"/>
+                                <rect key="frame" x="137" y="79" width="140" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bpE-kg-OAf">
-                                <rect key="frame" x="347" y="243" width="49" height="31"/>
+                                <rect key="frame" x="332" y="281" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="switch2Toogled:" destination="lcu-k8-f4Y" eventType="valueChanged" id="Nel-kl-qg6"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Every 1.5 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJF-vW-G4E">
-                                <rect key="frame" x="20" y="253" width="116" height="21"/>
+                                <rect key="frame" x="20" y="286" width="179" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JYL-5V-XUu">
-                                <rect key="frame" x="347" y="292" width="49" height="31"/>
+                                <rect key="frame" x="332" y="371" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="switch3Toogled:" destination="lcu-k8-f4Y" eventType="valueChanged" id="kaE-dt-Gcq"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Every 2 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMq-eA-ets">
-                                <rect key="frame" x="20" y="302" width="105" height="21"/>
+                                <rect key="frame" x="20" y="376" width="167" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Every 1 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XzY-0I-qe2">
-                                <rect key="frame" x="20" y="204" width="103" height="21"/>
+                                <rect key="frame" x="20" y="204" width="167" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYe-A4-6Y2">
-                                <rect key="frame" x="20" y="343" width="374" height="125"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYe-A4-6Y2">
+                                <rect key="frame" x="20" y="421" width="374" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">App Explanation:  According to the American Optometric Association, people who look at screens two or more hours in a row every day have the greatest risk to have strained and dry eyes</string>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
@@ -1022,9 +1022,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="OXy-l7-fV2"/>
                     <connections>
+                        <outlet property="appExplanation" destination="LYe-A4-6Y2" id="Ilf-qD-nkz"/>
+                        <outlet property="backButton" destination="SyR-kc-G5r" id="1bY-Vx-DBg"/>
+                        <outlet property="firstReminder" destination="XzY-0I-qe2" id="FS0-al-uqQ"/>
+                        <outlet property="reminderTitle" destination="ilx-NW-zeN" id="QBP-aM-IB9"/>
+                        <outlet property="secondReminder" destination="mJF-vW-G4E" id="eR9-Sd-stw"/>
                         <outlet property="switchOne" destination="dsz-jp-RXa" id="xlC-Be-5Vk"/>
                         <outlet property="switchThree" destination="JYL-5V-XUu" id="qaK-6p-udP"/>
                         <outlet property="switchTwo" destination="bpE-kg-OAf" id="wYY-x4-r0c"/>
+                        <outlet property="thirdReminder" destination="LMq-eA-ets" id="7Ff-q1-FXb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jmu-Gh-gH9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1302,29 +1308,35 @@
             <point key="canvasLocation" x="-1913" y="-227"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="yX8-xy-QyJ"/>
+        <segue reference="Sey-n5-eMV"/>
+        <segue reference="RZj-7f-mZO"/>
+        <segue reference="Dft-cn-0Zu"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Background" width="375" height="812"/>
         <image name="ButtonCOntinue" width="310" height="103"/>
         <image name="KelopakAtas" width="96" height="48"/>
         <image name="KelopakBawah" width="96" height="48"/>
-        <image name="arrow.left" catalog="system" width="64" height="48"/>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="backgroundDynamic" width="375" height="812"/>
         <image name="blinkCounterBackground" width="70" height="60"/>
         <image name="buttonPutihKecil" width="237" height="45"/>
-        <image name="circle.fill" catalog="system" width="64" height="60"/>
+        <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="exerciseButtonBG" width="202" height="55"/>
         <image name="eye" width="112" height="112"/>
         <image name="eyeball" width="64" height="59"/>
-        <image name="gear" catalog="system" width="64" height="58"/>
+        <image name="gear" catalog="system" width="128" height="119"/>
         <image name="owl_body" width="612" height="732"/>
         <image name="owl_face" width="318" height="237"/>
         <image name="separatorDark" width="4" height="60"/>
-        <image name="square.fill" catalog="system" width="64" height="56"/>
+        <image name="square.fill" catalog="system" width="128" height="114"/>
         <image name="terminology_icon1" width="57" height="50"/>
         <image name="terminology_icon2" width="50" height="50"/>
-        <image name="timer" catalog="system" width="64" height="60"/>
+        <image name="timer" catalog="system" width="128" height="121"/>
         <image name="timerCounterBackground" width="119" height="60"/>
-        <image name="xmark" catalog="system" width="64" height="56"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="Color">
             <color red="0.14117647058823529" green="0.2196078431372549" blue="0.30588235294117649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -1335,10 +1347,4 @@
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="yX8-xy-QyJ"/>
-        <segue reference="Sey-n5-eMV"/>
-        <segue reference="RZj-7f-mZO"/>
-        <segue reference="Dft-cn-0Zu"/>
-    </inferredMetricsTieBreakers>
 </document>
