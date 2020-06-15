@@ -41,25 +41,25 @@ class RightViewController: UIViewController ,ARSessionDelegate {
 
   super.viewDidLoad()
         //Accessibility
-        exerciseTitleText.font = .preferredFont(forTextStyle: .largeTitle)
-        exerciseTitleText.adjustsFontForContentSizeCategory = true
-        
-        exerciseDescText.font = .preferredFont(forTextStyle: .subheadline)
-        exerciseDescText.adjustsFontForContentSizeCategory = true
-        
-        timerText.font = .preferredFont(forTextStyle: .title1)
-        timerText.adjustsFontForContentSizeCategory = true
-        
-        blinkText.font = .preferredFont(forTextStyle: .title1)
-        blinkText.adjustsFontForContentSizeCategory = true
-        
-        timerCounterText.font = .preferredFont(forTextStyle: .largeTitle)
-        timerCounterText.adjustsFontForContentSizeCategory = true
-        
-        blinkCounterText.font = .preferredFont(forTextStyle: .largeTitle)
-        blinkCounterText.adjustsFontForContentSizeCategory = true
-        
-        buttonContinue1.titleLabel?.font = .preferredFont(forTextStyle: .largeTitle)
+//        exerciseTitleText.font = .preferredFont(forTextStyle: .largeTitle)
+//        exerciseTitleText.adjustsFontForContentSizeCategory = true
+//        
+//        exerciseDescText.font = .preferredFont(forTextStyle: .subheadline)
+//        exerciseDescText.adjustsFontForContentSizeCategory = true
+//        
+//        timerText.font = .preferredFont(forTextStyle: .title1)
+//        timerText.adjustsFontForContentSizeCategory = true
+//        
+//        blinkText.font = .preferredFont(forTextStyle: .title1)
+//        blinkText.adjustsFontForContentSizeCategory = true
+//        
+//        timerCounterText.font = .preferredFont(forTextStyle: .largeTitle)
+//        timerCounterText.adjustsFontForContentSizeCategory = true
+//        
+//        blinkCounterText.font = .preferredFont(forTextStyle: .largeTitle)
+//        blinkCounterText.adjustsFontForContentSizeCategory = true
+//        
+//        buttonContinue1.titleLabel?.font = .preferredFont(forTextStyle: .largeTitle)
         buttonContinue1.titleLabel?.adjustsFontForContentSizeCategory = true
         
          // Do any additional setup after loading the view.

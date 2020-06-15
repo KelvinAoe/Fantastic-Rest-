@@ -40,26 +40,26 @@ class FiveViewController: UIViewController, ARSessionDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //Accessibility
-        exerciseTitleText.font = .preferredFont(forTextStyle: .largeTitle)
-        exerciseTitleText.adjustsFontForContentSizeCategory = true
-        
-        exerciseDescText.font = .preferredFont(forTextStyle: .subheadline)
-        exerciseDescText.adjustsFontForContentSizeCategory = true
-        
-        timerText.font = .preferredFont(forTextStyle: .title1)
-        timerText.adjustsFontForContentSizeCategory = true
-        
-        blinkText.font = .preferredFont(forTextStyle: .title1)
-        blinkText.adjustsFontForContentSizeCategory = true
-        
-        timerCounterText.font = .preferredFont(forTextStyle: .largeTitle)
-        timerCounterText.adjustsFontForContentSizeCategory = true
-        
-        blinkCounterText.font = .preferredFont(forTextStyle: .largeTitle)
-        blinkCounterText.adjustsFontForContentSizeCategory = true
-        
-        buttonContinue1.titleLabel?.font = .preferredFont(forTextStyle: .largeTitle)
+//        //Accessibility
+//        exerciseTitleText.font = .preferredFont(forTextStyle: .largeTitle)
+//        exerciseTitleText.adjustsFontForContentSizeCategory = true
+//        
+//        exerciseDescText.font = .preferredFont(forTextStyle: .subheadline)
+//        exerciseDescText.adjustsFontForContentSizeCategory = true
+//        
+//        timerText.font = .preferredFont(forTextStyle: .title1)
+//        timerText.adjustsFontForContentSizeCategory = true
+//        
+//        blinkText.font = .preferredFont(forTextStyle: .title1)
+//        blinkText.adjustsFontForContentSizeCategory = true
+//        
+//        timerCounterText.font = .preferredFont(forTextStyle: .largeTitle)
+//        timerCounterText.adjustsFontForContentSizeCategory = true
+//        
+//        blinkCounterText.font = .preferredFont(forTextStyle: .largeTitle)
+//        blinkCounterText.adjustsFontForContentSizeCategory = true
+//        
+//        buttonContinue1.titleLabel?.font = .preferredFont(forTextStyle: .largeTitle)
         buttonContinue1.titleLabel?.adjustsFontForContentSizeCategory = true
         
         // Do any additional setup after loading the view.
@@ -202,38 +202,38 @@ class FiveViewController: UIViewController, ARSessionDelegate {
         if (rightBlink > 0.5 && kelopakKiriTurun == false)
         {
             kelopakKiriTurun = true
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakAtasKiri.frame.origin.y += 24; }, completion: nil)
         
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakBawahKiri.frame.origin.y -= 24; }, completion: nil)
         }
         
         if (rightBlink < 0.5 && kelopakKiriTurun == true){
             kelopakKiriTurun = false
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakAtasKiri.frame.origin.y -= 24; }, completion: nil)
             
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakBawahKiri.frame.origin.y += 24; }, completion: nil)
         }
         
         if (leftBlink > 0.5 && kelopakKananTurun == false)
         {
             kelopakKananTurun = true
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakAtasKanan.frame.origin.y += 24; }, completion: nil)
         
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakBawahKanan.frame.origin.y -= 24; }, completion: nil)
         }
         
-        if (rightBlink < 0.5 && kelopakKananTurun == true){
+        if (leftBlink < 0.5 && kelopakKananTurun == true){
             kelopakKananTurun = false
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakAtasKanan.frame.origin.y -= 24; }, completion: nil)
             
-            UIView.animate(withDuration: 0.6, animations: {
+            UIView.animate(withDuration: 0.3, animations: {
             self.kelopakBawahKanan.frame.origin.y += 24; }, completion: nil)
         }
     }
