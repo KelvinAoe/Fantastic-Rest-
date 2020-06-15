@@ -32,9 +32,13 @@
                                 <rect key="frame" x="248" y="568" width="70" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="separator" translatesAutoresizingMaskIntoConstraints="NO" id="KWR-QH-b0Y">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="separatorDark" translatesAutoresizingMaskIntoConstraints="NO" id="KWR-QH-b0Y">
                                 <rect key="frame" x="230" y="568" width="4" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="SeparatorImage" label="Separator">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Partial Blink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qP-X0-3nG">
                                 <rect key="frame" x="107" y="90" width="203" height="41"/>
@@ -84,23 +88,23 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1z-7k-xBH">
-                                <rect key="frame" x="269" y="607" width="28" height="21"/>
+                                <rect key="frame" x="248" y="607" width="70" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" name="counterColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPi-nD-fvN">
-                                <rect key="frame" x="139" y="607" width="32" height="21"/>
+                                <rect key="frame" x="96" y="607" width="119" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" name="counterColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Close your left eye and hold for 3 second Repeat 20 times" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMF-Mb-O55">
                                 <rect key="frame" x="12" y="127" width="394" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" name="excTitleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -185,14 +189,18 @@
                                 <rect key="frame" x="249" y="568" width="70" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="separator" translatesAutoresizingMaskIntoConstraints="NO" id="WDH-Vo-Vf3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="separatorDark" translatesAutoresizingMaskIntoConstraints="NO" id="WDH-Vo-Vf3">
                                 <rect key="frame" x="231" y="568" width="4" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="SeparatorImage" label="Separator">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilE-hy-08X">
-                                <rect key="frame" x="261" y="607" width="47" height="21"/>
+                                <rect key="frame" x="249" y="607" width="70" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" name="counterColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -210,16 +218,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWH-ET-fVc">
-                                <rect key="frame" x="133" y="607" width="46" height="21"/>
+                                <rect key="frame" x="97" y="607" width="119" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" name="counterColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Close your right eye and hold for 3 second Repeat 20 times" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AvR-Sp-shI">
                                 <rect key="frame" x="12" y="127" width="394" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" name="excTitleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -334,7 +342,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blink quickly for 1 minutes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlU-1S-gQY">
                                 <rect key="frame" x="95" y="133" width="224" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" name="excTitleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -353,6 +361,10 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" translatesAutoresizingMaskIntoConstraints="NO" id="ozp-Bg-2sJ">
                                 <rect key="frame" x="78" y="349" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES"/>
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="KelopakAtas" translatesAutoresizingMaskIntoConstraints="NO" id="BJ7-XW-Cfi" userLabel="Kelopak Atas Kiri">
                                 <rect key="frame" x="54" y="304" width="96" height="48"/>
@@ -414,16 +426,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d37-8M-3JQ">
-                                <rect key="frame" x="272" y="605" width="27" height="21"/>
+                                <rect key="frame" x="250" y="605" width="70" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" name="counterColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwV-SA-iVH">
-                                <rect key="frame" x="141" y="605" width="34" height="21"/>
+                                <rect key="frame" x="98" y="605" width="119" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" name="counterColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -441,9 +453,13 @@
                                 <color key="textColor" name="counterColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="separator" translatesAutoresizingMaskIntoConstraints="NO" id="Z6Y-Up-HXp">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="separatorDark" translatesAutoresizingMaskIntoConstraints="NO" id="Z6Y-Up-HXp">
                                 <rect key="frame" x="232" y="568" width="4" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="SeparatorImage" label="Separator">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -495,9 +511,13 @@
                                 <rect key="frame" x="248" y="568" width="70" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="separator" translatesAutoresizingMaskIntoConstraints="NO" id="5p9-Yu-M1L">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="separatorDark" translatesAutoresizingMaskIntoConstraints="NO" id="5p9-Yu-M1L">
                                 <rect key="frame" x="230" y="568" width="4" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="SeparatorImage" label="Separator">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWy-MV-oCF">
                                 <rect key="frame" x="106" y="571" width="99" height="41"/>
@@ -514,9 +534,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blink Slowly 20 times with  each blink taking 3 seconds" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6i-xE-MbW">
-                                <rect key="frame" x="95" y="133" width="224" height="63"/>
+                                <rect key="frame" x="0.0" y="133" width="414" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" name="excTitleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -546,14 +566,14 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3Q-pt-zgy">
                                 <rect key="frame" x="107" y="607" width="98" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" name="counterColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alb-NJ-2p1">
                                 <rect key="frame" x="245" y="607" width="76" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" name="counterColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -778,23 +798,38 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" translatesAutoresizingMaskIntoConstraints="NO" id="GX8-3M-6wk">
                                 <rect key="frame" x="264" y="334" width="96" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" translatesAutoresizingMaskIntoConstraints="NO" id="Plc-E8-RxK">
                                 <rect key="frame" x="54" y="334" width="96" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" translatesAutoresizingMaskIntoConstraints="NO" id="3Zd-ZC-sbB">
                                 <rect key="frame" x="288" y="352" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="pupil">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyeball" translatesAutoresizingMaskIntoConstraints="NO" id="CJM-JW-unA">
                                 <rect key="frame" x="78" y="352" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="pupil">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0Jr-vh-kFS">
                                 <rect key="frame" x="-69" y="741" width="551" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.93369835619999997" green="0.95239645240000004" blue="0.97647541760000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fantastic Rest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdR-dw-nqA">
                                 <rect key="frame" x="105" y="106" width="205" height="41"/>
@@ -925,7 +960,7 @@
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dsz-jp-RXa">
-                                <rect key="frame" x="347" y="258" width="49" height="31"/>
+                                <rect key="frame" x="347" y="194" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="switch1Toggled:" destination="lcu-k8-f4Y" eventType="valueChanged" id="wiF-NX-woe"/>
@@ -939,42 +974,42 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bpE-kg-OAf">
-                                <rect key="frame" x="347" y="307" width="49" height="31"/>
+                                <rect key="frame" x="347" y="243" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="switch2Toogled:" destination="lcu-k8-f4Y" eventType="valueChanged" id="Nel-kl-qg6"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Every 1.5 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJF-vW-G4E">
-                                <rect key="frame" x="20" y="317" width="116" height="21"/>
+                                <rect key="frame" x="20" y="253" width="116" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JYL-5V-XUu">
-                                <rect key="frame" x="347" y="356" width="49" height="31"/>
+                                <rect key="frame" x="347" y="292" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="switch3Toogled:" destination="lcu-k8-f4Y" eventType="valueChanged" id="kaE-dt-Gcq"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Every 2 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMq-eA-ets">
-                                <rect key="frame" x="20" y="366" width="105" height="21"/>
+                                <rect key="frame" x="20" y="302" width="105" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Every 1 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XzY-0I-qe2">
-                                <rect key="frame" x="20" y="268" width="103" height="21"/>
+                                <rect key="frame" x="20" y="204" width="103" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYe-A4-6Y2">
-                                <rect key="frame" x="20" y="407" width="374" height="125"/>
+                                <rect key="frame" x="20" y="343" width="374" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">App Explanation:  According to the American Optometric Association, people who look at screens two or more hours in a row every day have the greatest risk to have strained and dry eyes</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -1020,9 +1055,13 @@
                                 <rect key="frame" x="248" y="568" width="70" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="separator" translatesAutoresizingMaskIntoConstraints="NO" id="jR4-iQ-7j6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="separatorDark" translatesAutoresizingMaskIntoConstraints="NO" id="jR4-iQ-7j6">
                                 <rect key="frame" x="230" y="568" width="4" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="SeparatorImage" label="Separator">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDz-XX-CGU">
                                 <rect key="frame" x="105" y="567" width="100" height="48"/>
@@ -1035,13 +1074,6 @@
                                 <rect key="frame" x="115" y="90" width="188" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                <color key="textColor" name="excTitleColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Close your eyes for 12 seconds, open your eyes and repeat 5 times." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLg-is-dey">
-                                <rect key="frame" x="72" y="133" width="276" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <color key="textColor" name="excTitleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1071,7 +1103,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8S-I6-yaH">
                                 <rect key="frame" x="106" y="607" width="98" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" name="counterColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1117,8 +1149,15 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoA-oq-SN0">
                                 <rect key="frame" x="245" y="607" width="76" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" name="counterColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Close your eyes for 12 seconds, open your eyes and repeat 5 times." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLg-is-dey">
+                                <rect key="frame" x="27" y="131" width="360" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <color key="textColor" name="excTitleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1279,7 +1318,7 @@
         <image name="gear" catalog="system" width="64" height="58"/>
         <image name="owl_body" width="612" height="732"/>
         <image name="owl_face" width="318" height="237"/>
-        <image name="separator" width="4" height="60"/>
+        <image name="separatorDark" width="4" height="60"/>
         <image name="square.fill" catalog="system" width="64" height="56"/>
         <image name="terminology_icon1" width="57" height="50"/>
         <image name="terminology_icon2" width="50" height="50"/>
